@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Product</title>
+</head>
+<body>
+    <!--nav bar-->
+    <nav class="flex bg-green-100 items-center justify-between p-5 shadow-xl sticky top-0 z-10">
+
+        <h1 class="text-2xl font-semibold">Greeden</h1>
+
+        <svg class="md:hidden w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" />
+        </svg>
+
+
+        <ul class="flex gap-5 text-gray-600 max-md:hidden">
+            <li> <a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li> <a class="hover:underline hover:text-black bg-green-600 rounded p-1 text-white" href="product.html">Products</a></li>
+            <li> <a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--products-->
+
+     <section class="p-4 text-center">
+    <h2 class="font-bold text-3xl">Our Products</h2>
+    <input type="text" placeholder="Search for a product..." style="width: 80%;" class="border border-black mt-2 h-10 p-2">
+
+    <div class="grid grid-cols-2 mt-5 md:grid-cols-4 ">
+        <div class="mt-5">
+            <img  class="inline hover:shadow-xl transform hover:-translate-y-2 rounded" src="https://images.unsplash.com/photo-1617111490936-07b47eafdcd4?w=200&h=250&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zmxvd2VyJTIwcG90c3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+            <p>Rose</p>
+            <h6>$2</h6>
+        </div>
+
+        <div class="mt-5">
+            <img  class="inline hover:shadow-xl transform hover:-translate-y-2 rounded" src="https://images.unsplash.com/photo-1592064465579-6796bfdaa5cd?w=200&h=250&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zmxvd2VyJTIwcG90c3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+            <p>Rose</p>
+            <h6>$2</h6>
+        </div>
+
+        <div class="mt-5">
+            <img  class="inline hover:shadow-xl transform hover:-translate-y-2 rounded" src="https://images.unsplash.com/photo-1530968348606-69c989d6efc9?w=200&h=250&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZsb3dlciUyMHBvdHN8ZW58MHx8MHx8fDA%3D" alt="">
+            <p>Rose</p>
+            <h6>$2</h6>
+        </div>
+
+        <div class="mt-5">
+            <img  class="inline hover:shadow-xl transform hover:-translate-y-2 rounded" src="https://images.unsplash.com/photo-1613372978247-de50228e8033?w=200&h=250&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGZsb3dlciUyMHBvdHN8ZW58MHx8MHx8fDA%3D" alt="">
+            <p>Rose</p>
+            <h6>$2</h6>
+        </div>
+
+        <div class="mt-5">
+            <img  class="inline hover:shadow-xl transform hover:-translate-y-2 rounded" src="https://images.unsplash.com/photo-1617111490936-07b47eafdcd4?w=200&h=250&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zmxvd2VyJTIwcG90c3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+            <p>Rose</p>
+            <h6>$2</h6>
+        </div>
+
+        <div class="mt-5">
+            <img  class="inline hover:shadow-xl transform hover:-translate-y-2 rounded" src="https://images.unsplash.com/photo-1592064465579-6796bfdaa5cd?w=200&h=250&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zmxvd2VyJTIwcG90c3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+            <p>Rose</p>
+            <h6>$2</h6>
+        </div>
+
+        <div class="mt-5">
+            <img  class="inline hover:shadow-xl transform hover:-translate-y-2 rounded" src="https://images.unsplash.com/photo-1530968348606-69c989d6efc9?w=200&h=250&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZsb3dlciUyMHBvdHN8ZW58MHx8MHx8fDA%3D" alt="">
+            <p>Rose</p>
+            <h6>$2</h6>
+        </div>
+
+        <div class="mt-5">
+            <img  class="inline hover:shadow-xl transform hover:-translate-y-2 rounded" src="https://images.unsplash.com/photo-1613372978247-de50228e8033?w=200&h=250&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGZsb3dlciUyMHBvdHN8ZW58MHx8MHx8fDA%3D" alt="">
+            <p>Rose</p>
+            <h6>$2</h6>
+        </div>
+    </div>
+ </section>
+
+ <!--Footer-->
+  <section class="bg-green-100 flex flex-col gap-5 mt-5 p-4">
+    <h2 class="text-4xl font-bold mt-5">Greeden</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, similique!</p>
+    <p class="">@ Lorem ipsum dolor sit amet.</p>
+ </section>
+</body>
+</html>
